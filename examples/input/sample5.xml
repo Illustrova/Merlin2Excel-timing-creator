@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns="http://schemas.projectwizards.net/merlin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="e1OBfTAyQjqpruhM1HcDbw">
+		<title>Outstanding_Project_5</title>
+		<meta>
+				<product name="project" version="4.3.4.53667"/>
+				<system name="OSX" version="Version 10.12.6 (Build 16G1114)"/>
+		</meta>
+		<currencySymbol value="RUB"/>
+		<currencySymbolPosition value="afterAmountWithSpace"/>
+		<hoursPerDay value="8"/>
+		<hoursPerWeek value="40"/>
+		<daysPerMonth value="20"/>
+		<ensuresUniqueWBSCodes value="true"/>
+		<autocreatesWBSCodes value="true"/>
+		<defaultWork amount="1" unit="day" estimated="true" resolvedAmount="28800" resolvedEstimated="true"/>
+		<schedulingDirection value="forward"/>
+		<firstDayOfWeek value="monday"/>
+		<dynamicPlanningMode value="off"/>
+		<dynamicPlanningGranularityUnit value="day"/>
+		<resourceLeveling>
+				<incremental value="false"/>
+				<granularity value="day"/>
+				<order value="standard"/>
+				<onlyWithinSlack value="false"/>
+				<allowLevelingOfAssignments value="false"/>
+		</resourceLeveling>
+		<Resource id="1i83vorVTaOxLwPEivWf8A">
+				<costAccrual value="prorated"/>
+				<isUser value="true"/>
+				<availableUnits amount="1" resolvedAmount="1"/>
+				<ResourceCalendar>
+						<baseCalendar idref="uL48o51LScaNo_bsxgh6ow"/>
+				</ResourceCalendar>
+				<baseCostType value="perProject"/>
+				<status value="underUtilized"/>
+				<givenPermissionForActivities value="readWrite"/>
+				<givenPermissionForResources value="readWrite"/>
+				<givenPermissionForAssignments value="readWrite"/>
+				<givenPermissionForAttachments value="readWrite"/>
+				<givenPermissionForDataFromOthers value="readWrite"/>
+				<givenPermissionForFinancialData value="readWrite"/>
+				<givenPermissionForActualValues value="readWrite"/>
+				<givenPermissionForUsers value="readWrite"/>
+				<givenPermissionForSettings value="readWrite"/>
+				<plannedEarlyStartDate value="2018-03-05T10:00:00"/>
+				<plannedLateStartDate value="2018-03-07T08:00:00"/>
+				<plannedStartDate value="2018-03-05T10:00:00"/>
+				<plannedEarlyEndDate value="2018-04-01T10:00:00"/>
+				<plannedLateEndDate value="2018-04-01T10:00:00"/>
+				<plannedEndDate value="2018-04-01T10:00:00"/>
+				<plannedWork amount="1.4" unit="month" resolvedAmount="806400"/>
+				<plannedMaximumPossibleWork amount="7.9" unit="month" resolvedAmount="4550400"/>
+				<plannedElapsedDuration amount="3.85714285714286" unit="week" elapsed="true" timeInterval="2332800"/>
+				<plannedDuration amount="3.95" unit="week" timeInterval="568800"/>
+				<expectedEarlyStartDate value="2018-03-05T10:00:00"/>
+				<expectedLateStartDate value="2018-03-07T08:00:00"/>
+				<expectedStartDate value="2018-03-05T10:00:00"/>
+				<expectedEarlyEndDate value="2018-04-01T10:00:00"/>
+				<expectedLateEndDate value="2018-04-01T10:00:00"/>
+				<expectedEndDate value="2018-04-01T10:00:00"/>
+				<expectedWork amount="1.4" unit="month" resolvedAmount="806400"/>
+				<expectedMaximumPossibleWork amount="7.9" unit="month" resolvedAmount="4550400"/>
+				<expectedElapsedDuration amount="3.85714285714286" unit="week" elapsed="true" timeInterval="2332800"/>
+				<expectedDuration amount="3.95" unit="week" timeInterval="568800"/>
+				<remainingWork amount="1.4" unit="month" resolvedAmount="806400"/>
+		</Resource>
+		<Activity id="_NxbNndpQXi7zhkxd1lX7Q">
+				<title>Outstanding_Project_5</title>
+				<costAccrual value="prorated"/>
+				<status value="behindSchedule"/>
+				<priority value="500"/>
+				<givenStartDateMin value="2018-03-01T00:00:00"/>
+				<calendarMode value="preferResource"/>
+				<calendar idref="uL48o51LScaNo_bsxgh6ow"/>
+				<alignment value="asap"/>
+				<plannedEarlyStartDate value="2018-03-05T10:00:00"/>
+				<plannedLateStartDate value="2018-03-07T08:00:00"/>
+				<plannedStartDate value="2018-03-05T10:00:00"/>
+				<plannedEarlyEndDate value="2018-04-01T10:00:00"/>
+				<plannedLateEndDate value="2018-04-01T10:00:00"/>
+				<plannedEndDate value="2018-04-01T10:00:00"/>
+				<plannedWork amount="1.4" unit="month" resolvedAmount="806400"/>
+				<plannedElapsedDuration amount="3.85714285714286" unit="week" elapsed="true" timeInterval="2332800"/>
+				<plannedDuration amount="3.95" unit="week" timeInterval="568800"/>
+				<isPlannedCritical value="true"/>
+				<expectedEarlyStartDate value="2018-03-05T10:00:00"/>
+				<expectedLateStartDate value="2018-03-07T08:00:00"/>
+				<expectedStartDate value="2018-03-05T10:00:00"/>
+				<expectedEarlyEndDate value="2018-04-01T10:00:00"/>
+				<expectedLateEndDate value="2018-04-01T10:00:00"/>
+				<expectedEndDate value="2018-04-01T10:00:00"/>
+				<expectedWork amount="1.4" unit="month" resolvedAmount="806400"/>
+				<expectedElapsedDuration amount="3.85714285714286" unit="week" elapsed="true" timeInterval="2332800"/>
+				<expectedDuration amount="3.95" unit="week" timeInterval="568800"/>
+				<isExpectedCritical value="true"/>
+				<expectedStartSlack amount="1.75" unit="day" timeInterval="50400"/>
+				<expectedEndSlack amount="0" unit="day" timeInterval="0"/>
+				<expectedTotalSlack amount="0" unit="day" timeInterval="0"/>
+				<expectedFreeSlack amount="0" unit="day" timeInterval="0"/>
+				<flatOrder value="0"/>
+				<remainingWork amount="1.4" unit="month" resolvedAmount="806400"/>
+				<wbsCode value="0"/>
+				<Activity id="Z9bUIgSMQ0WYXmMcKvGrGA">
+						<title>go-ahead</title>
+						<costAccrual value="prorated"/>
+						<status value="behindSchedule"/>
+						<priority value="500"/>
+						<givenStartDateMin value="2018-03-05T10:00:00"/>
+						<givenEndDateMin value="2018-03-05T10:00:00"/>
+						<calendarMode value="preferResource"/>
+						<calendar idref="uL48o51LScaNo_bsxgh6ow"/>
+						<alignment value="asap"/>
+						<plannedEarlyStartDate value="2018-03-05T10:00:00"/>
+						<plannedLateStartDate value="2018-03-07T08:00:00"/>
+						<plannedStartDate value="2018-03-05T10:00:00"/>
+						<plannedEarlyEndDate value="2018-03-05T10:00:00"/>
+						<plannedLateEndDate value="2018-03-07T08:00:00"/>
+						<plannedEndDate value="2018-03-05T10:00:00"/>
+						<isPlannedCritical value="false"/>
+						<expectedEarlyStartDate value="2018-03-05T10:00:00"/>
+						<expectedLateStartDate value="2018-03-07T08:00:00"/>
+						<expectedStartDate value="2018-03-05T10:00:00"/>
+						<expectedEarlyEndDate value="2018-03-05T10:00:00"/>
+						<expectedLateEndDate value="2018-03-07T08:00:00"/>
+						<expectedEndDate value="2018-03-05T10:00:00"/>
+						<isExpectedCritical value="false"/>
+						<expectedStartSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedEndSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedTotalSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedFreeSlack amount="0" unit="day" timeInterval="0"/>
+						<flatOrder value="1"/>
+						<outlineCode value="1"/>
+						<isMilestone value="true"/>
+						<wbsCode value="1"/>
+						<Assignment id="0UYD9m28Q2uXAUMZPILo4A">
+								<resource idref="1i83vorVTaOxLwPEivWf8A"/>
+								<costAccrual value="prorated"/>
+								<status value="behindSchedule"/>
+								<priority value="500"/>
+								<calendarMode value="preferResource"/>
+								<calendar idref="uL48o51LScaNo_bsxgh6ow"/>
+								<alignment value="asap"/>
+								<plannedEarlyStartDate value="2018-03-05T10:00:00"/>
+								<plannedLateStartDate value="2018-03-07T08:00:00"/>
+								<plannedStartDate value="2018-03-05T10:00:00"/>
+								<plannedEarlyEndDate value="2018-03-05T10:00:00"/>
+								<plannedLateEndDate value="2018-03-07T08:00:00"/>
+								<plannedEndDate value="2018-03-05T10:00:00"/>
+								<isPlannedCritical value="false"/>
+								<expectedEarlyStartDate value="2018-03-05T10:00:00"/>
+								<expectedLateStartDate value="2018-03-07T08:00:00"/>
+								<expectedStartDate value="2018-03-05T10:00:00"/>
+								<expectedEarlyEndDate value="2018-03-05T10:00:00"/>
+								<expectedLateEndDate value="2018-03-07T08:00:00"/>
+								<expectedEndDate value="2018-03-05T10:00:00"/>
+								<isExpectedCritical value="false"/>
+								<expectedStartSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedEndSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedTotalSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedFreeSlack amount="0" unit="day" timeInterval="0"/>
+						</Assignment>
+				</Activity>
+				<Activity id="rVGROLeiSem2IBlq7WLqig">
+						<title>modeling</title>
+						<string attr="Task type">modeling</string>
+						<costAccrual value="prorated"/>
+						<status value="behindSchedule"/>
+						<priority value="500"/>
+						<givenWork amount="5" unit="day" resolvedAmount="144000"/>
+						<givenWorkAbsolute amount="5" unit="day" resolvedAmount="144000"/>
+						<calendarMode value="preferResource"/>
+						<calendar idref="uL48o51LScaNo_bsxgh6ow"/>
+						<alignment value="asap"/>
+						<plannedEarlyStartDate value="2018-03-05T10:00:00"/>
+						<plannedLateStartDate value="2018-03-07T08:00:00"/>
+						<plannedStartDate value="2018-03-05T10:00:00"/>
+						<plannedEarlyEndDate value="2018-03-12T10:00:00"/>
+						<plannedLateEndDate value="2018-03-13T17:00:00"/>
+						<plannedEndDate value="2018-03-12T10:00:00"/>
+						<plannedWork amount="1" unit="week" resolvedAmount="144000"/>
+						<plannedMaximumPossibleWork amount="1" unit="week" resolvedAmount="144000"/>
+						<plannedUtilization value="1"/>
+						<plannedElapsedDuration amount="1" unit="week" elapsed="true" timeInterval="604800"/>
+						<plannedDuration amount="1" unit="week" timeInterval="144000"/>
+						<isPlannedCritical value="false"/>
+						<expectedEarlyStartDate value="2018-03-05T10:00:00"/>
+						<expectedLateStartDate value="2018-03-07T08:00:00"/>
+						<expectedStartDate value="2018-03-05T10:00:00"/>
+						<expectedEarlyEndDate value="2018-03-12T10:00:00"/>
+						<expectedLateEndDate value="2018-03-13T17:00:00"/>
+						<expectedEndDate value="2018-03-12T10:00:00"/>
+						<expectedWork amount="1" unit="week" resolvedAmount="144000"/>
+						<expectedMaximumPossibleWork amount="1" unit="week" resolvedAmount="144000"/>
+						<expectedUtilization value="1"/>
+						<expectedElapsedDuration amount="1" unit="week" elapsed="true" timeInterval="604800"/>
+						<expectedDuration amount="1" unit="week" timeInterval="144000"/>
+						<isExpectedCritical value="false"/>
+						<expectedStartSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedEndSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedTotalSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedFreeSlack amount="0" unit="day" timeInterval="0"/>
+						<flatOrder value="2"/>
+						<outlineCode value="2"/>
+						<remainingWork amount="1" unit="week" resolvedAmount="144000"/>
+						<wbsCode value="2"/>
+						<Assignment id="iJ9jKE1lSJi142z8O2cbjA">
+								<resource idref="1i83vorVTaOxLwPEivWf8A"/>
+								<costAccrual value="prorated"/>
+								<status value="behindSchedule"/>
+								<priority value="500"/>
+								<calendarMode value="preferResource"/>
+								<calendar idref="uL48o51LScaNo_bsxgh6ow"/>
+								<alignment value="asap"/>
+								<plannedEarlyStartDate value="2018-03-05T10:00:00"/>
+								<plannedLateStartDate value="2018-03-07T08:00:00"/>
+								<plannedStartDate value="2018-03-05T10:00:00"/>
+								<plannedEarlyEndDate value="2018-03-12T10:00:00"/>
+								<plannedLateEndDate value="2018-03-13T17:00:00"/>
+								<plannedEndDate value="2018-03-12T10:00:00"/>
+								<plannedWork amount="1" unit="week" resolvedAmount="144000"/>
+								<plannedMaximumPossibleWork amount="1" unit="week" resolvedAmount="144000"/>
+								<plannedUtilization value="1"/>
+								<plannedElapsedDuration amount="1" unit="week" elapsed="true" timeInterval="604800"/>
+								<plannedDuration amount="1" unit="week" timeInterval="144000"/>
+								<isPlannedCritical value="false"/>
+								<expectedEarlyStartDate value="2018-03-05T10:00:00"/>
+								<expectedLateStartDate value="2018-03-07T08:00:00"/>
+								<expectedStartDate value="2018-03-05T10:00:00"/>
+								<expectedEarlyEndDate value="2018-03-12T10:00:00"/>
+								<expectedLateEndDate value="2018-03-13T17:00:00"/>
+								<expectedEndDate value="2018-03-12T10:00:00"/>
+								<expectedWork amount="1" unit="week" resolvedAmount="144000"/>
+								<expectedMaximumPossibleWork amount="1" unit="week" resolvedAmount="144000"/>
+								<expectedUtilization value="1"/>
+								<expectedElapsedDuration amount="1" unit="week" elapsed="true" timeInterval="604800"/>
+								<expectedDuration amount="1" unit="week" timeInterval="144000"/>
+								<isExpectedCritical value="false"/>
+								<expectedStartSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedEndSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedTotalSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedFreeSlack amount="0" unit="day" timeInterval="0"/>
+								<resourceUnits amount="1" resolvedAmount="1"/>
+								<minimizesDuration value="true"/>
+								<remainingWork amount="1" unit="week" resolvedAmount="144000"/>
+						</Assignment>
+				</Activity>
+				<Activity id="AXSU98vcRoq9y4oyUPKcHg">
+						<title>animatic</title>
+						<string attr="Task type">animation</string>
+						<costAccrual value="prorated"/>
+						<status value="behindSchedule"/>
+						<priority value="500"/>
+						<givenWork amount="4" unit="day" resolvedAmount="115200"/>
+						<givenWorkAbsolute amount="4" unit="day" resolvedAmount="115200"/>
+						<calendarMode value="preferResource"/>
+						<calendar idref="uL48o51LScaNo_bsxgh6ow"/>
+						<alignment value="asap"/>
+						<plannedEarlyStartDate value="2018-03-06T10:00:00"/>
+						<plannedLateStartDate value="2018-03-08T08:00:00"/>
+						<plannedStartDate value="2018-03-06T10:00:00"/>
+						<plannedEarlyEndDate value="2018-03-12T10:00:00"/>
+						<plannedLateEndDate value="2018-03-13T17:00:00"/>
+						<plannedEndDate value="2018-03-12T10:00:00"/>
+						<plannedWork amount="4" unit="day" resolvedAmount="115200"/>
+						<plannedMaximumPossibleWork amount="4" unit="day" resolvedAmount="115200"/>
+						<plannedUtilization value="1"/>
+						<plannedElapsedDuration amount="6" unit="day" elapsed="true" timeInterval="518400"/>
+						<plannedDuration amount="4" unit="day" timeInterval="115200"/>
+						<isPlannedCritical value="false"/>
+						<expectedEarlyStartDate value="2018-03-06T10:00:00"/>
+						<expectedLateStartDate value="2018-03-08T08:00:00"/>
+						<expectedStartDate value="2018-03-06T10:00:00"/>
+						<expectedEarlyEndDate value="2018-03-12T10:00:00"/>
+						<expectedLateEndDate value="2018-03-13T17:00:00"/>
+						<expectedEndDate value="2018-03-12T10:00:00"/>
+						<expectedWork amount="4" unit="day" resolvedAmount="115200"/>
+						<expectedMaximumPossibleWork amount="4" unit="day" resolvedAmount="115200"/>
+						<expectedUtilization value="1"/>
+						<expectedElapsedDuration amount="6" unit="day" elapsed="true" timeInterval="518400"/>
+						<expectedDuration amount="4" unit="day" timeInterval="115200"/>
+						<isExpectedCritical value="false"/>
+						<expectedStartSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedEndSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedTotalSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedFreeSlack amount="0" unit="day" timeInterval="0"/>
+						<flatOrder value="3"/>
+						<outlineCode value="3"/>
+						<remainingWork amount="4" unit="day" resolvedAmount="115200"/>
+						<wbsCode value="3"/>
+						<Assignment id="3naQeoT_R42UtBErQH_b0g">
+								<resource idref="1i83vorVTaOxLwPEivWf8A"/>
+								<costAccrual value="prorated"/>
+								<status value="behindSchedule"/>
+								<priority value="500"/>
+								<calendarMode value="preferResource"/>
+								<calendar idref="uL48o51LScaNo_bsxgh6ow"/>
+								<alignment value="asap"/>
+								<plannedEarlyStartDate value="2018-03-06T10:00:00"/>
+								<plannedLateStartDate value="2018-03-08T08:00:00"/>
+								<plannedStartDate value="2018-03-06T10:00:00"/>
+								<plannedEarlyEndDate value="2018-03-12T10:00:00"/>
+								<plannedLateEndDate value="2018-03-13T17:00:00"/>
+								<plannedEndDate value="2018-03-12T10:00:00"/>
+								<plannedWork amount="4" unit="day" resolvedAmount="115200"/>
+								<plannedMaximumPossibleWork amount="4" unit="day" resolvedAmount="115200"/>
+								<plannedUtilization value="1"/>
+								<plannedElapsedDuration amount="6" unit="day" elapsed="true" timeInterval="518400"/>
+								<plannedDuration amount="4" unit="day" timeInterval="115200"/>
+								<isPlannedCritical value="false"/>
+								<expectedEarlyStartDate value="2018-03-06T10:00:00"/>
+								<expectedLateStartDate value="2018-03-08T08:00:00"/>
+								<expectedStartDate value="2018-03-06T10:00:00"/>
+								<expectedEarlyEndDate value="2018-03-12T10:00:00"/>
+								<expectedLateEndDate value="2018-03-13T17:00:00"/>
+								<expectedEndDate value="2018-03-12T10:00:00"/>
+								<expectedWork amount="4" unit="day" resolvedAmount="115200"/>
+								<expectedMaximumPossibleWork amount="4" unit="day" resolvedAmount="115200"/>
+								<expectedUtilization value="1"/>
+								<expectedElapsedDuration amount="6" unit="day" elapsed="true" timeInterval="518400"/>
+								<expectedDuration amount="4" unit="day" timeInterval="115200"/>
+								<isExpectedCritical value="false"/>
+								<expectedStartSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedEndSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedTotalSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedFreeSlack amount="0" unit="day" timeInterval="0"/>
+								<resourceUnits amount="1" resolvedAmount="1"/>
+								<minimizesDuration value="true"/>
+								<remainingWork amount="4" unit="day" resolvedAmount="115200"/>
+						</Assignment>
+				</Activity>
+				<Activity id="kYDfF-nbT96Y3W394vYISg">
+						<title>simulation</title>
+						<string attr="Task type">simulation</string>
+						<costAccrual value="prorated"/>
+						<status value="future"/>
+						<priority value="500"/>
+						<givenWork amount="10" unit="day" resolvedAmount="288000"/>
+						<givenWorkAbsolute amount="10" unit="day" resolvedAmount="288000"/>
+						<calendarMode value="preferResource"/>
+						<calendar idref="uL48o51LScaNo_bsxgh6ow"/>
+						<alignment value="asap"/>
+						<plannedEarlyStartDate value="2018-03-12T10:00:00"/>
+						<plannedLateStartDate value="2018-03-14T08:00:00"/>
+						<plannedStartDate value="2018-03-12T10:00:00"/>
+						<plannedEarlyEndDate value="2018-03-26T10:00:00"/>
+						<plannedLateEndDate value="2018-03-27T17:00:00"/>
+						<plannedEndDate value="2018-03-26T10:00:00"/>
+						<plannedWork amount="2" unit="week" resolvedAmount="288000"/>
+						<plannedMaximumPossibleWork amount="2" unit="week" resolvedAmount="288000"/>
+						<plannedUtilization value="1"/>
+						<plannedElapsedDuration amount="2" unit="week" elapsed="true" timeInterval="1209600"/>
+						<plannedDuration amount="2" unit="week" timeInterval="288000"/>
+						<isPlannedCritical value="false"/>
+						<expectedEarlyStartDate value="2018-03-12T10:00:00"/>
+						<expectedLateStartDate value="2018-03-14T08:00:00"/>
+						<expectedStartDate value="2018-03-12T10:00:00"/>
+						<expectedEarlyEndDate value="2018-03-26T10:00:00"/>
+						<expectedLateEndDate value="2018-03-27T17:00:00"/>
+						<expectedEndDate value="2018-03-26T10:00:00"/>
+						<expectedWork amount="2" unit="week" resolvedAmount="288000"/>
+						<expectedMaximumPossibleWork amount="2" unit="week" resolvedAmount="288000"/>
+						<expectedUtilization value="1"/>
+						<expectedElapsedDuration amount="2" unit="week" elapsed="true" timeInterval="1209600"/>
+						<expectedDuration amount="2" unit="week" timeInterval="288000"/>
+						<isExpectedCritical value="false"/>
+						<expectedStartSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedEndSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedTotalSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedFreeSlack amount="0" unit="day" timeInterval="0"/>
+						<flatOrder value="4"/>
+						<outlineCode value="4"/>
+						<remainingWork amount="2" unit="week" resolvedAmount="288000"/>
+						<wbsCode value="4"/>
+						<Assignment id="XTqswPmbSuGCxoWCSWVdUA">
+								<resource idref="1i83vorVTaOxLwPEivWf8A"/>
+								<costAccrual value="prorated"/>
+								<status value="future"/>
+								<priority value="500"/>
+								<calendarMode value="preferResource"/>
+								<calendar idref="uL48o51LScaNo_bsxgh6ow"/>
+								<alignment value="asap"/>
+								<plannedEarlyStartDate value="2018-03-12T10:00:00"/>
+								<plannedLateStartDate value="2018-03-14T08:00:00"/>
+								<plannedStartDate value="2018-03-12T10:00:00"/>
+								<plannedEarlyEndDate value="2018-03-26T10:00:00"/>
+								<plannedLateEndDate value="2018-03-27T17:00:00"/>
+								<plannedEndDate value="2018-03-26T10:00:00"/>
+								<plannedWork amount="2" unit="week" resolvedAmount="288000"/>
+								<plannedMaximumPossibleWork amount="2" unit="week" resolvedAmount="288000"/>
+								<plannedUtilization value="1"/>
+								<plannedElapsedDuration amount="2" unit="week" elapsed="true" timeInterval="1209600"/>
+								<plannedDuration amount="2" unit="week" timeInterval="288000"/>
+								<isPlannedCritical value="false"/>
+								<expectedEarlyStartDate value="2018-03-12T10:00:00"/>
+								<expectedLateStartDate value="2018-03-14T08:00:00"/>
+								<expectedStartDate value="2018-03-12T10:00:00"/>
+								<expectedEarlyEndDate value="2018-03-26T10:00:00"/>
+								<expectedLateEndDate value="2018-03-27T17:00:00"/>
+								<expectedEndDate value="2018-03-26T10:00:00"/>
+								<expectedWork amount="2" unit="week" resolvedAmount="288000"/>
+								<expectedMaximumPossibleWork amount="2" unit="week" resolvedAmount="288000"/>
+								<expectedUtilization value="1"/>
+								<expectedElapsedDuration amount="2" unit="week" elapsed="true" timeInterval="1209600"/>
+								<expectedDuration amount="2" unit="week" timeInterval="288000"/>
+								<isExpectedCritical value="false"/>
+								<expectedStartSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedEndSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedTotalSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedFreeSlack amount="0" unit="day" timeInterval="0"/>
+								<resourceUnits amount="1" resolvedAmount="1"/>
+								<minimizesDuration value="true"/>
+								<remainingWork amount="2" unit="week" resolvedAmount="288000"/>
+						</Assignment>
+				</Activity>
+				<Activity id="MdRHwS9dTMSujsnPa-rqEw">
+						<title>render</title>
+						<string attr="Task type">render</string>
+						<costAccrual value="prorated"/>
+						<status value="future"/>
+						<priority value="500"/>
+						<givenWork amount="6" unit="day" resolvedAmount="172800"/>
+						<givenWorkAbsolute amount="6" unit="day" resolvedAmount="172800"/>
+						<calendarMode value="preferResource"/>
+						<calendar idref="uL48o51LScaNo_bsxgh6ow"/>
+						<alignment value="asap"/>
+						<plannedEarlyStartDate value="2018-03-19T10:00:00"/>
+						<plannedLateStartDate value="2018-03-21T08:00:00"/>
+						<plannedStartDate value="2018-03-19T10:00:00"/>
+						<plannedEarlyEndDate value="2018-03-27T10:00:00"/>
+						<plannedLateEndDate value="2018-03-28T17:00:00"/>
+						<plannedEndDate value="2018-03-27T10:00:00"/>
+						<plannedWork amount="1.2" unit="week" resolvedAmount="172800"/>
+						<plannedMaximumPossibleWork amount="1.2" unit="week" resolvedAmount="172800"/>
+						<plannedUtilization value="1"/>
+						<plannedElapsedDuration amount="1.14285714285714" unit="week" elapsed="true" timeInterval="691200"/>
+						<plannedDuration amount="1.2" unit="week" timeInterval="172800"/>
+						<isPlannedCritical value="false"/>
+						<expectedEarlyStartDate value="2018-03-19T10:00:00"/>
+						<expectedLateStartDate value="2018-03-21T08:00:00"/>
+						<expectedStartDate value="2018-03-19T10:00:00"/>
+						<expectedEarlyEndDate value="2018-03-27T10:00:00"/>
+						<expectedLateEndDate value="2018-03-28T17:00:00"/>
+						<expectedEndDate value="2018-03-27T10:00:00"/>
+						<expectedWork amount="1.2" unit="week" resolvedAmount="172800"/>
+						<expectedMaximumPossibleWork amount="1.2" unit="week" resolvedAmount="172800"/>
+						<expectedUtilization value="1"/>
+						<expectedElapsedDuration amount="1.14285714285714" unit="week" elapsed="true" timeInterval="691200"/>
+						<expectedDuration amount="1.2" unit="week" timeInterval="172800"/>
+						<isExpectedCritical value="false"/>
+						<expectedStartSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedEndSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedTotalSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedFreeSlack amount="0" unit="day" timeInterval="0"/>
+						<flatOrder value="5"/>
+						<outlineCode value="5"/>
+						<remainingWork amount="1.2" unit="week" resolvedAmount="172800"/>
+						<wbsCode value="5"/>
+						<Assignment id="HkIzBGg4RyO21nCGroO0nA">
+								<resource idref="1i83vorVTaOxLwPEivWf8A"/>
+								<costAccrual value="prorated"/>
+								<status value="future"/>
+								<priority value="500"/>
+								<calendarMode value="preferResource"/>
+								<calendar idref="uL48o51LScaNo_bsxgh6ow"/>
+								<alignment value="asap"/>
+								<plannedEarlyStartDate value="2018-03-19T10:00:00"/>
+								<plannedLateStartDate value="2018-03-21T08:00:00"/>
+								<plannedStartDate value="2018-03-19T10:00:00"/>
+								<plannedEarlyEndDate value="2018-03-27T10:00:00"/>
+								<plannedLateEndDate value="2018-03-28T17:00:00"/>
+								<plannedEndDate value="2018-03-27T10:00:00"/>
+								<plannedWork amount="1.2" unit="week" resolvedAmount="172800"/>
+								<plannedMaximumPossibleWork amount="1.2" unit="week" resolvedAmount="172800"/>
+								<plannedUtilization value="1"/>
+								<plannedElapsedDuration amount="1.14285714285714" unit="week" elapsed="true" timeInterval="691200"/>
+								<plannedDuration amount="1.2" unit="week" timeInterval="172800"/>
+								<isPlannedCritical value="false"/>
+								<expectedEarlyStartDate value="2018-03-19T10:00:00"/>
+								<expectedLateStartDate value="2018-03-21T08:00:00"/>
+								<expectedStartDate value="2018-03-19T10:00:00"/>
+								<expectedEarlyEndDate value="2018-03-27T10:00:00"/>
+								<expectedLateEndDate value="2018-03-28T17:00:00"/>
+								<expectedEndDate value="2018-03-27T10:00:00"/>
+								<expectedWork amount="1.2" unit="week" resolvedAmount="172800"/>
+								<expectedMaximumPossibleWork amount="1.2" unit="week" resolvedAmount="172800"/>
+								<expectedUtilization value="1"/>
+								<expectedElapsedDuration amount="1.14285714285714" unit="week" elapsed="true" timeInterval="691200"/>
+								<expectedDuration amount="1.2" unit="week" timeInterval="172800"/>
+								<isExpectedCritical value="false"/>
+								<expectedStartSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedEndSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedTotalSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedFreeSlack amount="0" unit="day" timeInterval="0"/>
+								<resourceUnits amount="1" resolvedAmount="1"/>
+								<minimizesDuration value="true"/>
+								<remainingWork amount="1.2" unit="week" resolvedAmount="172800"/>
+						</Assignment>
+				</Activity>
+				<Activity id="NYCZSQG5R0u46a_fl9zwTA">
+						<title>comp</title>
+						<string attr="Task type">comp</string>
+						<costAccrual value="prorated"/>
+						<status value="future"/>
+						<priority value="500"/>
+						<givenWork amount="3" unit="day" resolvedAmount="86400"/>
+						<givenWorkAbsolute amount="3" unit="day" resolvedAmount="86400"/>
+						<calendarMode value="preferResource"/>
+						<calendar idref="uL48o51LScaNo_bsxgh6ow"/>
+						<alignment value="asap"/>
+						<plannedEarlyStartDate value="2018-03-26T10:00:00"/>
+						<plannedLateStartDate value="2018-03-28T08:00:00"/>
+						<plannedStartDate value="2018-03-26T10:00:00"/>
+						<plannedEarlyEndDate value="2018-03-29T10:00:00"/>
+						<plannedLateEndDate value="2018-03-30T17:00:00"/>
+						<plannedEndDate value="2018-03-29T10:00:00"/>
+						<plannedWork amount="3" unit="day" resolvedAmount="86400"/>
+						<plannedMaximumPossibleWork amount="3" unit="day" resolvedAmount="86400"/>
+						<plannedUtilization value="1"/>
+						<plannedElapsedDuration amount="3" unit="day" elapsed="true" timeInterval="259200"/>
+						<plannedDuration amount="3" unit="day" timeInterval="86400"/>
+						<isPlannedCritical value="false"/>
+						<expectedEarlyStartDate value="2018-03-26T10:00:00"/>
+						<expectedLateStartDate value="2018-03-28T08:00:00"/>
+						<expectedStartDate value="2018-03-26T10:00:00"/>
+						<expectedEarlyEndDate value="2018-03-29T10:00:00"/>
+						<expectedLateEndDate value="2018-03-30T17:00:00"/>
+						<expectedEndDate value="2018-03-29T10:00:00"/>
+						<expectedWork amount="3" unit="day" resolvedAmount="86400"/>
+						<expectedMaximumPossibleWork amount="3" unit="day" resolvedAmount="86400"/>
+						<expectedUtilization value="1"/>
+						<expectedElapsedDuration amount="3" unit="day" elapsed="true" timeInterval="259200"/>
+						<expectedDuration amount="3" unit="day" timeInterval="86400"/>
+						<isExpectedCritical value="false"/>
+						<expectedStartSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedEndSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedTotalSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedFreeSlack amount="0" unit="day" timeInterval="0"/>
+						<flatOrder value="6"/>
+						<outlineCode value="6"/>
+						<remainingWork amount="3" unit="day" resolvedAmount="86400"/>
+						<wbsCode value="6"/>
+						<Assignment id="lvWZ9g7oQ1u0pwCXfSFujA">
+								<resource idref="1i83vorVTaOxLwPEivWf8A"/>
+								<costAccrual value="prorated"/>
+								<status value="future"/>
+								<priority value="500"/>
+								<calendarMode value="preferResource"/>
+								<calendar idref="uL48o51LScaNo_bsxgh6ow"/>
+								<alignment value="asap"/>
+								<plannedEarlyStartDate value="2018-03-26T10:00:00"/>
+								<plannedLateStartDate value="2018-03-28T08:00:00"/>
+								<plannedStartDate value="2018-03-26T10:00:00"/>
+								<plannedEarlyEndDate value="2018-03-29T10:00:00"/>
+								<plannedLateEndDate value="2018-03-30T17:00:00"/>
+								<plannedEndDate value="2018-03-29T10:00:00"/>
+								<plannedWork amount="3" unit="day" resolvedAmount="86400"/>
+								<plannedMaximumPossibleWork amount="3" unit="day" resolvedAmount="86400"/>
+								<plannedUtilization value="1"/>
+								<plannedElapsedDuration amount="3" unit="day" elapsed="true" timeInterval="259200"/>
+								<plannedDuration amount="3" unit="day" timeInterval="86400"/>
+								<isPlannedCritical value="false"/>
+								<expectedEarlyStartDate value="2018-03-26T10:00:00"/>
+								<expectedLateStartDate value="2018-03-28T08:00:00"/>
+								<expectedStartDate value="2018-03-26T10:00:00"/>
+								<expectedEarlyEndDate value="2018-03-29T10:00:00"/>
+								<expectedLateEndDate value="2018-03-30T17:00:00"/>
+								<expectedEndDate value="2018-03-29T10:00:00"/>
+								<expectedWork amount="3" unit="day" resolvedAmount="86400"/>
+								<expectedMaximumPossibleWork amount="3" unit="day" resolvedAmount="86400"/>
+								<expectedUtilization value="1"/>
+								<expectedElapsedDuration amount="3" unit="day" elapsed="true" timeInterval="259200"/>
+								<expectedDuration amount="3" unit="day" timeInterval="86400"/>
+								<isExpectedCritical value="false"/>
+								<expectedStartSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedEndSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedTotalSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedFreeSlack amount="0" unit="day" timeInterval="0"/>
+								<resourceUnits amount="1" resolvedAmount="1"/>
+								<minimizesDuration value="true"/>
+								<remainingWork amount="3" unit="day" resolvedAmount="86400"/>
+						</Assignment>
+				</Activity>
+				<Activity id="KsiPLIhBSPCs7U3fwUvdvw">
+						<title>final presentation</title>
+						<costAccrual value="prorated"/>
+						<status value="future"/>
+						<priority value="500"/>
+						<calendarMode value="preferResource"/>
+						<calendar idref="uL48o51LScaNo_bsxgh6ow"/>
+						<alignment value="asap"/>
+						<plannedEarlyStartDate value="2018-03-29T10:00:00"/>
+						<plannedLateStartDate value="2018-04-01T10:00:00"/>
+						<plannedStartDate value="2018-03-29T10:00:00"/>
+						<plannedEarlyEndDate value="2018-03-29T10:00:00"/>
+						<plannedLateEndDate value="2018-04-01T10:00:00"/>
+						<plannedEndDate value="2018-03-29T10:00:00"/>
+						<isPlannedCritical value="false"/>
+						<expectedEarlyStartDate value="2018-03-29T10:00:00"/>
+						<expectedLateStartDate value="2018-04-01T10:00:00"/>
+						<expectedStartDate value="2018-03-29T10:00:00"/>
+						<expectedEarlyEndDate value="2018-03-29T10:00:00"/>
+						<expectedLateEndDate value="2018-04-01T10:00:00"/>
+						<expectedEndDate value="2018-03-29T10:00:00"/>
+						<isExpectedCritical value="false"/>
+						<expectedStartSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedEndSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedTotalSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<expectedFreeSlack amount="1.75" unit="day" timeInterval="50400"/>
+						<flatOrder value="7"/>
+						<outlineCode value="7"/>
+						<isMilestone value="true"/>
+						<wbsCode value="7"/>
+						<Assignment id="rnQsfT5wTmSvzkU2EnJ0oQ">
+								<resource idref="1i83vorVTaOxLwPEivWf8A"/>
+								<costAccrual value="prorated"/>
+								<status value="future"/>
+								<priority value="500"/>
+								<calendarMode value="preferResource"/>
+								<calendar idref="uL48o51LScaNo_bsxgh6ow"/>
+								<alignment value="asap"/>
+								<plannedEarlyStartDate value="2018-03-29T10:00:00"/>
+								<plannedLateStartDate value="2018-04-01T10:00:00"/>
+								<plannedStartDate value="2018-03-29T10:00:00"/>
+								<plannedEarlyEndDate value="2018-03-29T10:00:00"/>
+								<plannedLateEndDate value="2018-04-01T10:00:00"/>
+								<plannedEndDate value="2018-03-29T10:00:00"/>
+								<isPlannedCritical value="false"/>
+								<expectedEarlyStartDate value="2018-03-29T10:00:00"/>
+								<expectedLateStartDate value="2018-04-01T10:00:00"/>
+								<expectedStartDate value="2018-03-29T10:00:00"/>
+								<expectedEarlyEndDate value="2018-03-29T10:00:00"/>
+								<expectedLateEndDate value="2018-04-01T10:00:00"/>
+								<expectedEndDate value="2018-03-29T10:00:00"/>
+								<isExpectedCritical value="false"/>
+								<expectedStartSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedEndSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedTotalSlack amount="1.75" unit="day" timeInterval="50400"/>
+								<expectedFreeSlack amount="1.75" unit="day" timeInterval="50400"/>
+						</Assignment>
+				</Activity>
+				<Activity id="k8ET1exPSGaBKKv5-4Y67A">
+						<title>delivery</title>
+						<costAccrual value="prorated"/>
+						<status value="future"/>
+						<priority value="500"/>
+						<givenStartDateMin value="2018-04-01T10:00:00"/>
+						<givenEndDateMin value="2018-04-01T10:00:00"/>
+						<calendarMode value="preferResource"/>
+						<calendar idref="uL48o51LScaNo_bsxgh6ow"/>
+						<alignment value="asap"/>
+						<plannedEarlyStartDate value="2018-04-01T10:00:00"/>
+						<plannedLateStartDate value="2018-04-01T10:00:00"/>
+						<plannedStartDate value="2018-04-01T10:00:00"/>
+						<plannedEarlyEndDate value="2018-04-01T10:00:00"/>
+						<plannedLateEndDate value="2018-04-01T10:00:00"/>
+						<plannedEndDate value="2018-04-01T10:00:00"/>
+						<isPlannedCritical value="true"/>
+						<expectedEarlyStartDate value="2018-04-01T10:00:00"/>
+						<expectedLateStartDate value="2018-04-01T10:00:00"/>
+						<expectedStartDate value="2018-04-01T10:00:00"/>
+						<expectedEarlyEndDate value="2018-04-01T10:00:00"/>
+						<expectedLateEndDate value="2018-04-01T10:00:00"/>
+						<expectedEndDate value="2018-04-01T10:00:00"/>
+						<isExpectedCritical value="true"/>
+						<expectedStartSlack amount="0" unit="day" timeInterval="0"/>
+						<expectedEndSlack amount="0" unit="day" timeInterval="0"/>
+						<expectedTotalSlack amount="0" unit="day" timeInterval="0"/>
+						<expectedFreeSlack amount="0" unit="day" timeInterval="0"/>
+						<flatOrder value="8"/>
+						<outlineCode value="8"/>
+						<isMilestone value="true"/>
+						<wbsCode value="8"/>
+						<Assignment id="7K9S59_XRuijyEUZinKyBA">
+								<resource idref="1i83vorVTaOxLwPEivWf8A"/>
+								<costAccrual value="prorated"/>
+								<status value="future"/>
+								<priority value="500"/>
+								<calendarMode value="preferResource"/>
+								<calendar idref="uL48o51LScaNo_bsxgh6ow"/>
+								<alignment value="asap"/>
+								<plannedEarlyStartDate value="2018-04-01T10:00:00"/>
+								<plannedLateStartDate value="2018-04-01T10:00:00"/>
+								<plannedStartDate value="2018-04-01T10:00:00"/>
+								<plannedEarlyEndDate value="2018-04-01T10:00:00"/>
+								<plannedLateEndDate value="2018-04-01T10:00:00"/>
+								<plannedEndDate value="2018-04-01T10:00:00"/>
+								<isPlannedCritical value="true"/>
+								<expectedEarlyStartDate value="2018-04-01T10:00:00"/>
+								<expectedLateStartDate value="2018-04-01T10:00:00"/>
+								<expectedStartDate value="2018-04-01T10:00:00"/>
+								<expectedEarlyEndDate value="2018-04-01T10:00:00"/>
+								<expectedLateEndDate value="2018-04-01T10:00:00"/>
+								<expectedEndDate value="2018-04-01T10:00:00"/>
+								<isExpectedCritical value="true"/>
+								<expectedStartSlack amount="0" unit="day" timeInterval="0"/>
+								<expectedEndSlack amount="0" unit="day" timeInterval="0"/>
+								<expectedTotalSlack amount="0" unit="day" timeInterval="0"/>
+								<expectedFreeSlack amount="0" unit="day" timeInterval="0"/>
+						</Assignment>
+				</Activity>
+		</Activity>
+		<Dependency id="8oP7ea1ARzO6bDCb4TUE7w">
+				<type value="endToStart"/>
+				<lag amount="-5" unit="day" timeInterval="-144000"/>
+				<previousActivity idref="kYDfF-nbT96Y3W394vYISg"/>
+				<nextActivity idref="MdRHwS9dTMSujsnPa-rqEw"/>
+		</Dependency>
+		<Dependency id="KTuPbhuSQlS0rehpi5XKig">
+				<type value="endToStart"/>
+				<lag amount="-1" unit="day" timeInterval="-28800"/>
+				<previousActivity idref="MdRHwS9dTMSujsnPa-rqEw"/>
+				<nextActivity idref="NYCZSQG5R0u46a_fl9zwTA"/>
+		</Dependency>
+		<Dependency id="aaltng7qTpWHFU-h8Zf95A">
+				<type value="endToStart"/>
+				<previousActivity idref="Z9bUIgSMQ0WYXmMcKvGrGA"/>
+				<nextActivity idref="rVGROLeiSem2IBlq7WLqig"/>
+		</Dependency>
+		<Dependency id="citYm1cYRuealGZUkcVDQw">
+				<type value="endToStart"/>
+				<previousActivity idref="KsiPLIhBSPCs7U3fwUvdvw"/>
+				<nextActivity idref="k8ET1exPSGaBKKv5-4Y67A"/>
+		</Dependency>
+		<Dependency id="e0Ld_k9sRl2zIcWNcbfUtQ">
+				<type value="endToStart"/>
+				<previousActivity idref="AXSU98vcRoq9y4oyUPKcHg"/>
+				<nextActivity idref="kYDfF-nbT96Y3W394vYISg"/>
+		</Dependency>
+		<Dependency id="yUGoJk3VRdOWcr9GL-S3yw">
+				<type value="endToStart"/>
+				<previousActivity idref="NYCZSQG5R0u46a_fl9zwTA"/>
+				<nextActivity idref="KsiPLIhBSPCs7U3fwUvdvw"/>
+		</Dependency>
+		<Dependency id="y_-Lc1x4Q1SV0F779yxbEw">
+				<type value="startToStart"/>
+				<lag amount="1" unit="day" timeInterval="28800"/>
+				<previousActivity idref="rVGROLeiSem2IBlq7WLqig"/>
+				<nextActivity idref="AXSU98vcRoq9y4oyUPKcHg"/>
+		</Dependency>
+		<BaseCalendar id="VAEVm6dsRBi7tZURqAVDHg">
+				<CalendarWeekDayRule weekDay="sunday">
+						<dayTimeInterval startTime="00:00:00" endTime="00:00:00"/>
+				</CalendarWeekDayRule>
+				<CalendarWeekDayRule weekDay="monday">
+						<dayTimeInterval startTime="00:00:00" endTime="00:00:00"/>
+				</CalendarWeekDayRule>
+				<CalendarWeekDayRule weekDay="tuesday">
+						<dayTimeInterval startTime="00:00:00" endTime="00:00:00"/>
+				</CalendarWeekDayRule>
+				<CalendarWeekDayRule weekDay="wednesday">
+						<dayTimeInterval startTime="00:00:00" endTime="00:00:00"/>
+				</CalendarWeekDayRule>
+				<CalendarWeekDayRule weekDay="thursday">
+						<dayTimeInterval startTime="00:00:00" endTime="00:00:00"/>
+				</CalendarWeekDayRule>
+				<CalendarWeekDayRule weekDay="friday">
+						<dayTimeInterval startTime="00:00:00" endTime="00:00:00"/>
+				</CalendarWeekDayRule>
+				<CalendarWeekDayRule weekDay="saturday">
+						<dayTimeInterval startTime="00:00:00" endTime="00:00:00"/>
+				</CalendarWeekDayRule>
+				<title value="24 hours"/>
+		</BaseCalendar>
+		<BaseCalendar id="M7A2HyJbSEy683Q3pByGEQ">
+				<CalendarWeekDayRule weekDay="sunday"/>
+				<CalendarWeekDayRule weekDay="monday">
+						<dayTimeInterval startTime="23:00:00" endTime="00:00:00"/>
+				</CalendarWeekDayRule>
+				<CalendarWeekDayRule weekDay="tuesday">
+						<dayTimeInterval startTime="00:00:00" endTime="03:00:00"/>
+						<dayTimeInterval startTime="04:00:00" endTime="08:00:00"/>
+						<dayTimeInterval startTime="23:00:00" endTime="00:00:00"/>
+				</CalendarWeekDayRule>
+				<CalendarWeekDayRule weekDay="wednesday">
+						<dayTimeInterval startTime="00:00:00" endTime="03:00:00"/>
+						<dayTimeInterval startTime="04:00:00" endTime="08:00:00"/>
+						<dayTimeInterval startTime="23:00:00" endTime="00:00:00"/>
+				</CalendarWeekDayRule>
+				<CalendarWeekDayRule weekDay="thursday">
+						<dayTimeInterval startTime="00:00:00" endTime="03:00:00"/>
+						<dayTimeInterval startTime="04:00:00" endTime="08:00:00"/>
+						<dayTimeInterval startTime="23:00:00" endTime="00:00:00"/>
+				</CalendarWeekDayRule>
+				<CalendarWeekDayRule weekDay="friday">
+						<dayTimeInterval startTime="00:00:00" endTime="03:00:00"/>
+						<dayTimeInterval startTime="04:00:00" endTime="08:00:00"/>
+						<dayTimeInterval startTime="23:00:00" endTime="00:00:00"/>
+				</CalendarWeekDayRule>
+				<CalendarWeekDayRule weekDay="saturday">
+						<dayTimeInterval startTime="00:00:00" endTime="03:00:00"/>
+						<dayTimeInterval startTime="04:00:00" endTime="08:00:00"/>
+				</CalendarWeekDayRule>
+				<title value="Night Shift"/>
+		</BaseCalendar>
+		<BaseCalendar id="uL48o51LScaNo_bsxgh6ow">
+				<CalendarWeekDayRule weekDay="sunday"/>
+				<CalendarWeekDayRule weekDay="monday">
+						<dayTimeInterval startTime="08:00:00" endTime="12:00:00"/>
+						<dayTimeInterval startTime="13:00:00" endTime="17:00:00"/>
+				</CalendarWeekDayRule>
+				<CalendarWeekDayRule weekDay="tuesday">
+						<dayTimeInterval startTime="08:00:00" endTime="12:00:00"/>
+						<dayTimeInterval startTime="13:00:00" endTime="17:00:00"/>
+				</CalendarWeekDayRule>
+				<CalendarWeekDayRule weekDay="wednesday">
+						<dayTimeInterval startTime="08:00:00" endTime="12:00:00"/>
+						<dayTimeInterval startTime="13:00:00" endTime="17:00:00"/>
+				</CalendarWeekDayRule>
+				<CalendarWeekDayRule weekDay="thursday">
+						<dayTimeInterval startTime="08:00:00" endTime="12:00:00"/>
+						<dayTimeInterval startTime="13:00:00" endTime="17:00:00"/>
+				</CalendarWeekDayRule>
+				<CalendarWeekDayRule weekDay="friday">
+						<dayTimeInterval startTime="08:00:00" endTime="12:00:00"/>
+						<dayTimeInterval startTime="13:00:00" endTime="17:00:00"/>
+				</CalendarWeekDayRule>
+				<CalendarWeekDayRule weekDay="saturday"/>
+				<title value="Standard"/>
+		</BaseCalendar>
+		<ListValueProperty entity="Resource" name="role">
+				<ListValue id="3uOxNSTvTLCMbNLQTFexiA" title="Customer" localizesTitle="true"/>
+				<ListValue id="WnmHFB_ySwyaSCqTtDwThQ" title="Stakeholder" localizesTitle="true"/>
+				<ListValue id="Hv1rHCHMSkSqjw-j7Zhobg" title="Project Lead" localizesTitle="true"/>
+				<ListValue id="OrNSRa81SCinaBgFHpWjCw" title="Project Manager" localizesTitle="true"/>
+				<ListValue id="TKPCfQCTTuGdzV7sX6valQ" title="Task Manager" localizesTitle="true"/>
+				<ListValue id="sODsPiwuRSOkNEfJKihZ1A" title="Developer" localizesTitle="true"/>
+				<ListValue id="JbrrQ1S8TmC_VGpqss-KZA" title="Technician" localizesTitle="true"/>
+				<ListValue id="C-QxUhFKTcy_alXlrcQU6g" title="Marketing" localizesTitle="true"/>
+				<ListValue id="bmUHAIuISHOeidciCEtULA" title="Sales" localizesTitle="true"/>
+				<ListValue id="mF5ekukbTiC6bGN39YmA4g" title="Support" localizesTitle="true"/>
+				<ListValue id="Fz3V7UZNRK2lNdcuxbh6nA" title="Team Member" localizesTitle="true"/>
+				<ListValue id="APSOrzNESiez-hVsBv8uxg" title="Temporary" localizesTitle="true"/>
+				<ListValue id="arfrnlyoQC6hgIKkW99kuQ" title="Consultant" localizesTitle="true"/>
+		</ListValueProperty>
+		<ListValueProperty entity="File" name="status">
+				<ListValue id="Z4U4kiVRS6uwu64E6afwpg" title="New" localizesTitle="true" attentionLevel="critical"/>
+				<ListValue id="p4fFvLL9Tp-LRDdP1TjZ4Q" title="Draft" localizesTitle="true" attentionLevel="warning"/>
+				<ListValue id="r_62ckglT1-xNUyzPVwDOA" title="In Revision" localizesTitle="true" attentionLevel="warning"/>
+				<ListValue id="QBq7arp7T_SrPxHq4-HiDA" title="Technical Review" localizesTitle="true" attentionLevel="warning"/>
+				<ListValue id="z66pVrg_TFOb3YavTWf94w" title="Legal review" localizesTitle="true" attentionLevel="warning"/>
+				<ListValue id="ZdjUfGVeRES6g-1E5_0ZnQ" title="Review by Customer" localizesTitle="true" attentionLevel="warning"/>
+				<ListValue id="AUymsU2fTqqpZH9E-ML8GQ" title="Declined" localizesTitle="true" attentionLevel="critical"/>
+				<ListValue id="O7TUnC-9SwaCWSHdGcUz8A" title="Approved" localizesTitle="true" attentionLevel="normal"/>
+		</ListValueProperty>
+		<ListValueProperty entity="Information" name="kind">
+				<ListValue id="WN8AqCnOS2WUUxt4wV2dnw" title="By telephone" localizesTitle="true">
+						<ListValue id="GmXO1YpvT26Bd91A-Wzk5g" title="Outbound" localizesTitle="true" attentionLevel="normal"/>
+						<ListValue id="pFgQdA6_Rve8b6eP2wDiFw" title="Inbound" localizesTitle="true" attentionLevel="normal"/>
+						<ListValue id="odIwvq3pThWE0aCRZ5Wd0A" title="Please call" localizesTitle="true" attentionLevel="critical"/>
+						<ListValue id="X5S7aj-1RM2I4JyKn7kSnQ" title="Will call back" localizesTitle="true" attentionLevel="warning"/>
+				</ListValue>
+				<ListValue id="AFTLz4TATLWrhwSDY2Bdzg" title="In writing" localizesTitle="true">
+						<ListValue id="ygp8iJYySnGGIa2aRfQ46g" title="Email" localizesTitle="true" attentionLevel="normal"/>
+						<ListValue id="nQIOJEEZS3m6vYiV497nlw" title="Fax" localizesTitle="true" attentionLevel="normal"/>
+						<ListValue id="3yokcvgDT_Ki6-9apnvOtA" title="Letter" localizesTitle="true" attentionLevel="normal"/>
+						<ListValue id="zskz1djsRYmWLyDcsSOBDQ" title="Note" localizesTitle="true" attentionLevel="warning"/>
+						<ListValue id="6CNFeTLxTnq_cxak3Hd8Pg" title="Invoice" localizesTitle="true" attentionLevel="warning"/>
+				</ListValue>
+				<ListValue id="H2o24tBYSsmVPVncOdz-Yw" title="Personal" localizesTitle="true">
+						<ListValue id="B9FDbQ-CT0magQP_zAt_MA" title="In the office" localizesTitle="true" attentionLevel="normal"/>
+						<ListValue id="6-HiJ7w1QnqRM2yDcKW_UQ" title="At customer" localizesTitle="true" attentionLevel="normal"/>
+						<ListValue id="-SgeiZl9RoSinY703j3ynQ" title="Conference" localizesTitle="true" attentionLevel="normal"/>
+						<ListValue id="r9IkpxywTxODOju6FuCPKw" title="Trade show" localizesTitle="true" attentionLevel="normal"/>
+				</ListValue>
+		</ListValueProperty>
+		<ListValueProperty entity="Issue" name="category">
+				<ListValue id="lvD3glnCTSqU_tnQ-Y5nJA" title="General" localizesTitle="true"/>
+				<ListValue id="LVa-XrOTRyyjgklO4LIqRw" title="Employees" localizesTitle="true"/>
+				<ListValue id="l1zX910VSMSsww1AEeeDpQ" title="Environment" localizesTitle="true"/>
+				<ListValue id="SozWe30xQVWwtj4XJXLv4Q" title="Financial" localizesTitle="true"/>
+				<ListValue id="A4JvZdTrTJaZm_eaPAm2OQ" title="Technical" localizesTitle="true"/>
+		</ListValueProperty>
+		<ListValueProperty entity="Issue" name="kind">
+				<ListValue id="hjroOdNySyS_wr9rNcni_Q" title="Issue" localizesTitle="true"/>
+				<ListValue id="N8Wt5ckOQsSxL9QSie0lBA" title="Bug" localizesTitle="true"/>
+				<ListValue id="QWat0MeeScuiKC55TFtx7A" title="Change Request" localizesTitle="true"/>
+				<ListValue id="4pVZsBFvQROTRKBZ82iuog" title="Feature Request" localizesTitle="true"/>
+		</ListValueProperty>
+		<ListValueProperty entity="Issue" name="status">
+				<ListValue id="VbDgb4jyQku0f1zFWml5Jg" title="New" localizesTitle="true" attentionLevel="critical"/>
+				<ListValue id="Qa9ahym_SymLHRTHX68bwQ" title="Assigned" localizesTitle="true" attentionLevel="critical"/>
+				<ListValue id="WHq5xnmLSU6MrGwlmf0pnA" title="In progress" localizesTitle="true" attentionLevel="warning"/>
+				<ListValue id="-cGMRCNwQWKNSkaFjUO9Rw" title="Additional information required" localizesTitle="true" attentionLevel="warning"/>
+				<ListValue id="VCbpxOrBSeKxNNVTSw7BWg" title="Fixed" localizesTitle="true" attentionLevel="normal"/>
+				<ListValue id="vP8xMYwHRlOSLb_65M12zQ" title="Rejected" localizesTitle="true" attentionLevel="critical"/>
+		</ListValueProperty>
+		<ListValueProperty entity="Risk" name="riskGroup">
+				<ListValue id="FhGgEz-5SzCb89obqJFeNA" title="Global" localizesTitle="true"/>
+				<ListValue id="8O7CPwmyRhSuO8L8Ohii2Q" title="Business" localizesTitle="true"/>
+				<ListValue id="GtB6r6bJRuaIT4kya0JPLg" title="Employees" localizesTitle="true"/>
+				<ListValue id="w7TJwW2ySC-DSVmSpFL0Qg" title="Financial" localizesTitle="true"/>
+				<ListValue id="PR2rL_fYTs6S8FttoOndDQ" title="Technical" localizesTitle="true"/>
+		</ListValueProperty>
+		<ListValueProperty entity="Event" name="status">
+				<ListValue id="uA0foI99TBeUg_I1XILABg" title="Tentative" localizesTitle="true" attentionLevel="warning"/>
+				<ListValue id="2YUEbmSBTyuydMo3vnpiLA" title="Confirmed" localizesTitle="true" attentionLevel="normal"/>
+				<ListValue id="XV57oXZvTtKqIuKPiSNsUw" title="Completed" localizesTitle="true" attentionLevel="normal"/>
+				<ListValue id="Y4bvm63dTVq9IF5DXxqdBQ" title="Cancelled" localizesTitle="true" attentionLevel="critical"/>
+				<ListValue id="uO-qrHZ7QXWs9eiFm_JjRA" title="Requires Action" localizesTitle="true" attentionLevel="warning"/>
+				<ListValue id="M3XJBLrXSyS1YLPqrQgYOQ" title="In Progress" localizesTitle="true" attentionLevel="warning"/>
+		</ListValueProperty>
+		<ListValueProperty entity="Cost" name="kind">
+				<ListValue id="uDnn2fvhT2-BhvRdQcAdKQ" title="Consulting" localizesTitle="true"/>
+				<ListValue id="Y41ZahFNRv-wcgsM8WeOZA" title="Charges" localizesTitle="true"/>
+				<ListValue id="-3tKpdpGTheAdft_XgaxtA" title="Material" localizesTitle="true"/>
+				<ListValue id="qkxzm-irTj2T-4HOdaAGTQ" title="Room" localizesTitle="true"/>
+		</ListValueProperty>
+		<ListValueProperty entity="Cost" name="status">
+				<ListValue id="c9Qba_hWQpGdHqZSm7ScdA" title="Requested" localizesTitle="true" attentionLevel="warning"/>
+				<ListValue id="uwlUFBpBRWq1453wB_bjSw" title="Approved" localizesTitle="true" attentionLevel="normal"/>
+				<ListValue id="Miqt7wM3R8erDfAU1AU2QQ" title="Invoice received" localizesTitle="true" attentionLevel="critical"/>
+				<ListValue id="GFfAQQPhTeqhELDymx0mmA" title="Invoice released" localizesTitle="true" attentionLevel="warning"/>
+				<ListValue id="H4IoCs7EQcyRjrL0t6hO8Q" title="Invoice paid" localizesTitle="true" attentionLevel="normal"/>
+		</ListValueProperty>
+		<ListValueProperty entity="TaggableObject" name="tags">
+				<ListValue id="pWoeasOzSC-1xD3xBN-7sw" title="Draft" localizesTitle="true"/>
+				<ListValue id="xLnzG2O4QdOPGCqgeTOEDw" title="Proposal" localizesTitle="true"/>
+				<ListValue id="FfRdSRL6Re2VX2Y7tx-qcg" title="Discussion" localizesTitle="true"/>
+				<ListValue id="teINIP1uTOS14RrKJ5V-Xw" title="Decision" localizesTitle="true"/>
+		</ListValueProperty>
+		<CustomAttribute id="oghUVs8PRNaBOjSW8RlFEw" title="Task type">
+				<targetEntityName value="Activity"/>
+				<type value="string"/>
+				<allowsOnlyPresetValues value="true"/>
+				<string id="SiMLQb79T3e2cDk4IfwgHw">tracking</string>
+				<string id="Zt2u_FCYSvm7LQXOzfYkpg">modeling</string>
+				<string id="W4uBdzcIRKe1ysNh5MJ4SQ">simulation</string>
+				<string id="-bLTsTelTRas2Oqtzu-JFw">animation</string>
+				<string id="FA6tF_WpQs-JZqSMktoAsw">render</string>
+				<string id="ZZozk5dFRc-tzOItzr2FIg">comp</string>
+		</CustomAttribute>
+		<CustomAttribute id="NWd3b3ERR_-iQo3HZ_z1Hg" title="New Column">
+				<targetEntityName value="Assignment"/>
+				<type value="string"/>
+		</CustomAttribute>
+		<CustomAttribute id="JmrcV7IeSuezdKVQYojwAg" title="Task type">
+				<targetEntityName value="Assignment"/>
+				<type value="string"/>
+		</CustomAttribute>
+</Project>
